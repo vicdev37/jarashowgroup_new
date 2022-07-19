@@ -1,0 +1,34 @@
+.footer {
+  background: rgb(14, 13, 13);
+  margin-top: auto;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  color: #ffffff;
+
+  a {
+    text-decoration: underline;
+
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.hashtags {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #ffffff;
+  margin-top: 20px;
+  font-size: 10px;
+}

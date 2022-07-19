@@ -1,0 +1,73 @@
+.banner {
+  position: relative;
+  background: url('/about.jpg') bottom center no-repeat;
+  background-size: cover;
+  height: 120vh;
+}
+
+.title {
+  text-align: center;
+  font-size: 31px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  -webkit-transform: translate(-50%, 0%);
+  -moz-transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+  -o-transform: translate(-50%, 0%);
+  max-width: 900px;
+  height: auto;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  color: #ffffff;
+}
+
+.text_block {
+  p:first-child {
+    margin-top: 0;
+  }
+
+  p {
+    margin-top: 15px;
+    line-height: 150%;
+    font-size: 20px;
+
+    span {
+      background: rgba(255, 255, 255, 0.8);
+      font-size: 20px;
+      color: red;
+      padding: 5px;
+    }
+
+    a {
+      margin-left: 5px;
+      text-decoration: underline;
+      -webkit-transition: ease-out 0.2s;
+      -moz-transition: ease-out 0.2s;
+      -o-transition: ease-out 0.2s;
+      transition: ease-out 0.2s;
+
+      &:hover {
+        color: red;
+
+      }
+    }
+  }
+}
+
+.image_block {
+  max-width: 850px;
+  width: 100%;
+
+  img {
+    width: 100%;
+  }
+}

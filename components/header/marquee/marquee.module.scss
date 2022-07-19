@@ -1,0 +1,20 @@
+.runline {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  border-top: 1px solid coral;
+  border-bottom: 1px solid coral;
+  color: white;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(350deg, rgba(2, 0, 36, 1) 0%, rgba(174, 0, 12, 1) 100%, rgba(255, 0, 0, 0) 100%, rgba(255, 0, 0, 0.6293110994397759) 100%);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.runline_item {
+  margin-left: 10px;
+  margin-right: 15px;
+  font-size: 21px;
+
+}

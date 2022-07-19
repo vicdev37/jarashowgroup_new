@@ -1,0 +1,40 @@
+.title {
+  font-size: 31px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.contact_blocks {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contact_block {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.description {
+  color: grey;
+  margin-top: 5px;
+}
+
+.phone {
+  display: block;
+  margin-top: 5px;
+  font-size: 15px;
+  text-decoration: underline;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
